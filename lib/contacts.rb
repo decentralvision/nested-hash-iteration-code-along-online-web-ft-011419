@@ -19,5 +19,5 @@ def remove_strawberry(contacts)
     puts key.class
     puts value.class
   end
-  return contacts
+  return contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
 end
