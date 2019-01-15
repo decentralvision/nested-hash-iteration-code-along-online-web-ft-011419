@@ -20,5 +20,5 @@ def remove_strawberry(contacts)
   #   puts value.class
   # end
   puts contacts["Freddy Mercury"][favorite_ice_cream_flavors].delete("strawberry")
-  return contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
+  return contacts["Freddy Mercury"][favorite_ice_cream_flavors].delete("strawberry")
 end
