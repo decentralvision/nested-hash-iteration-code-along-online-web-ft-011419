@@ -20,4 +20,5 @@ def remove_strawberry(contacts)
       key.delete("strawberry")
     end
   end
+  contacts
 end
