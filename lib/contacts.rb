@@ -15,9 +15,10 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-  contacts["Freddy Mercury"].each do |key, value|
-    puts key.class
-    puts value.class
-  end
+  # contacts["Freddy Mercury"].each do |key, value|
+  #   puts key.class
+  #   puts value.class
+  # end
+  puts contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
   return contacts["Freddy Mercury"][:favorite_ice_cream_flavors].delete("strawberry")
 end
