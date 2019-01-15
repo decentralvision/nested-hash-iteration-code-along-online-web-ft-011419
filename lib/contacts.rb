@@ -15,5 +15,6 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-  contacts["Freddy Mercury"]['favorite_ice_cream_flavors']
+  contacts["Freddy Mercury"].each do |key, value|
+    puts key.type_of
 end
