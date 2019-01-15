@@ -19,5 +19,5 @@ def remove_strawberry(contacts)
     if key == favorite_ice_cream_flavors
       key.delete("strawberry")
     end
-  ends
+  end
 end
