@@ -19,4 +19,5 @@ def remove_strawberry(contacts)
     puts class(key)
     puts class(value)
   end
+  return contacts
 end
