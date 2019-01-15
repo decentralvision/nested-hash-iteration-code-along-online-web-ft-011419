@@ -16,5 +16,6 @@ require 'pry'
 
 def remove_strawberry(contacts)
   contacts["Freddy Mercury"].each do |key, value|
-    puts key.type_of
+    puts class(key)
+    puts class(value)
 end
