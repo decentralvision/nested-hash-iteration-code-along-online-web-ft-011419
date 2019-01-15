@@ -18,4 +18,5 @@ def remove_strawberry(contacts)
   contacts["Freddy Mercury"].each do |key, value|
     puts class(key)
     puts class(value)
+  end
 end
